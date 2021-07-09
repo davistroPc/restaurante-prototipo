@@ -1,0 +1,9 @@
+.icon-btn{ 
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+   /* falta agragar el border */
+   border: 10px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
