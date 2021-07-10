@@ -1,6 +1,5 @@
-.header{
-    background: rgb(153, 40, 40) none repeat scroll 0% 0%;
-    display: flex;
+.header{   
+   display: flex;
     -moz-box-pack: center;
     justify-content: center;
     left: 0px;
@@ -11,6 +10,7 @@
     bottom: 0px;
     transition: transform 0.3s ease 0s;
     z-index: 90;
+    background-color: rgba(86, 71, 119, 0.973);
     
 }
 

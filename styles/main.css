@@ -1,11 +1,17 @@
-@import "header.css";
-@import "wrapper.css";
-@import "buttons.css";
+@import "./header.css";
+@import "./wrapper.css";
+@import "./buttons.css";
 
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --bodyFont: bold 16px/25px var(--fontBase);
+    --bgBody: radial-gradient(circle, rgba(63,94,251,0.14337072719712884) 0%, rgba(252,70,107,0.10135392047443981) 100%); 
+}
 
 a{
     text-decoration: none;
 }
 body{
-    font-family: "Poppins";
+    font-family: var(--bodyFont);
+    background: var(--bgBody);
 }
