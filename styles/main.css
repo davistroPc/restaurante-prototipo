@@ -4,9 +4,10 @@
 
 :root{
     --fontBase: 'Poppins', sans-serif;
-    --bodyFont: bold 16px/25px var(--fontBase);
+    --bodyFont: 16px/25px var(--fontBase);
     --bgBody: radial-gradient(circle, rgba(63,94,251,0.14337072719712884) 0%, rgba(252,70,107,0.10135392047443981) 100%); 
-}
+    --title: bold 40px/45px var(--fontBase);
+    }
 
 a{
     text-decoration: none;
