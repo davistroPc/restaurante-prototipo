@@ -32,8 +32,8 @@
 
 .is-active{
   opacity: 1;
-  color: black;
-  fill: black;
+  color: var(--headerActive);
+  fill: var(--headerActive);
 }
 
 

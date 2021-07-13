@@ -1,9 +1,21 @@
+.button{
+    background: var(--buttonsColor);
+    color: var(--withe);
+    font: var(--fontBase);
+    
+}
+
 .icon-btn{ 
     position: fixed;
     bottom: 80px;
     right: 20px;
    /* falta agragar el border */
-   border: 10px solid red;
+    border: 10px solid var(--buttonsColor);
     border-radius: 50%;
-    background-color: red;
+    background-color: var(--buttonsColor);
+}
+
+.icon-btn:hover{
+    background:  var(--buttonCallActive);
+    border:10px solid var(--buttonCallActive);
 }
