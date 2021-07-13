@@ -4,15 +4,36 @@
 
 :root{
     --fontBase: 'Poppins', sans-serif;
-    --bodyFont: 16px/25px var(--fontBase);
-    --bgBody: radial-gradient(circle, rgba(63,94,251,0.14337072719712884) 0%, rgba(252,70,107,0.10135392047443981) 100%); 
-    --title: bold 40px/45px var(--fontBase);
+    --bodyText: 16px/14px var(--fontBase);
+    --descriptionText: 12px/18px var(--fontBase);
+    --headLine1: bold 98px/102px var(--fontBase);
+    --headLine2: bold 34px/52px var(--fontBase);      
+    --headLine3: bold 24px/18px var(--fontBase);
+    --bgBody: #EEE5E9;
+    --bgCard: #CEBBC9;
+    --header: #2B3A67;
+    --buttonsColor: #7EE081;
+    --buttonActive: #E84855;
+    --buttonText: bold 14px/22px  var(--fontBase);
     }
 
 a{
     text-decoration: none;
 }
+
+h1{
+    font-size: var(--headLine1);
+}
+h2{
+    font-size: var(--headLine2);
+}
+
+h3{
+    font-size: var(--headLine3);
+}
+
+
 body{
-    font-family: var(--bodyFont);
+    font-family: var(--fontBase);
     background: var(--bgBody);
 }

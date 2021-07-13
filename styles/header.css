@@ -10,13 +10,10 @@
     bottom: 0px;
     transition: transform 0.3s ease 0s;
     z-index: 90;
-    background-color: rgb(94, 70, 146);
+    background-color: var(--header);
     
 }
 
-h1{
-  font: var(--title);
-}
 
 .icon-position{
     color: rgb(0, 0, 0);
