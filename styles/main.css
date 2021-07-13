@@ -23,6 +23,16 @@ a{
     text-decoration: none;
 }
 
+h1{
+    font: var(--headLine1);
+}
+h2{
+    font: var(--headLine2);
+}
+h3{
+    font: var(--headLine3);
+}
+
 body{
     font: var(--fontBase);
     background: var(--bgBody);
