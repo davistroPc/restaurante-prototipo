@@ -1,0 +1,17 @@
+.card{
+    background: var(--bgCard);
+    size: relative;
+    border-radius: 28px;
+    display:block;
+    
+
+
+}
+
+.card img{
+    width: 180px;
+    height: 180px;
+    
+
+    
+}

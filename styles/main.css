@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./wrapper.css";
 @import "./buttons.css";
+@import "./cards.css";
 
 :root{
     --fontBase: 'Poppins', sans-serif;
