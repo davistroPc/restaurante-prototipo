@@ -3,7 +3,7 @@
     border-radius: 28px;
     margin-top: 24px;
     text-align: center;
-    padding-left: 24px;
+   
 
    
 }
@@ -15,8 +15,18 @@
     margin: auto;
 }
 
-.card.is-last{
+.is-last{
     margin-bottom: 84px;
+}
+
+.is-frame iframe{
+    height: 199.8px;
+   
+    display: block;
+    margin: auto;
+    border-radius: 28px;
+    margin-top: 24px;
+    
 }
 /*
 .container{

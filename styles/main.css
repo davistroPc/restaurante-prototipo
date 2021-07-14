@@ -2,6 +2,7 @@
 @import "./wrapper.css";
 @import "./buttons.css";
 @import "./cards.css";
+@import "./horarios.css";
 
 :root{
     --fontBase: 'Poppins', sans-serif;
