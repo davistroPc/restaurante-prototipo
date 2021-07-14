@@ -1,17 +1,26 @@
 .card{
     background: var(--bgCard);
-    size: relative;
     border-radius: 28px;
-    display:block;
-    
+    margin-top: 24px;
+    text-align: center;
+    padding-left: 24px;
 
-
+   
 }
 
 .card img{
     width: 180px;
     height: 180px;
-    
-
-    
+    display: block;
+    margin: auto;
 }
+
+.card.is-last{
+    margin-bottom: 84px;
+}
+/*
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}*/
