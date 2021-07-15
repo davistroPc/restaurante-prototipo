@@ -1,3 +1,61 @@
-.horario-tablas{
-    
+body{
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+}
+#Estado{
+    color: rgba(96, 207, 180, 0.87);
+}
+.cont-reloj{
+    margin: 170px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 40%;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+     border-radius:30px;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: #000000;
+}
+.reloj{
+    font-size:1.7em;  
+}
+.datos{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+.cont-reloj{
+width:50%;
+}
+}
+
+@media only screen and (max-width: 960px) {
+.cont-reloj{
+width:60%;
+}
+}
+@media only screen and (max-width: 870px) {
+.cont-reloj{
+width:65%;
+}
+}
+@media only screen and (max-width: 400px) {
+.cont-reloj{
+width:85%;
+height:150px
+}
+.reloj{
+    font-size:2.8em;  
+}
+.datos{
+font-size:1.3em
+}
 }

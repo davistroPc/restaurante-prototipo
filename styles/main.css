@@ -4,6 +4,7 @@
 @import "./cards.css";
 @import "./horarios.css";
 
+
 :root{
     --fontBase: 'Poppins', sans-serif;
     --bodyText: 16px/14px var(--fontBase);
