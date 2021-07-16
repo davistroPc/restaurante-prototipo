@@ -21,8 +21,11 @@ let mostrarReloj=()=>{
     reloj.textContent=`${hora} : ${minutos} : ${segundos}`
     fec_Datos.textContent=`${dia}`
 
-    if(dia==="lunes"){document.getElementById("Estado").innerHTML=": cerrado"} 
-    else{ document.getElementById("Estado").innerHTML=": Abierto"}
+    if(dia==="lunes"){document.getElementById("Estado").innerHTML=" cerrado"} 
+    else{ document.getElementById("Estado").innerHTML=" Abierto"}
+    if(hora>= 23 ){
+        
+        document.getElementById("Estado").innerHTML=" Cerrado"}
 
 }
 setInterval(mostrarReloj,1000)
