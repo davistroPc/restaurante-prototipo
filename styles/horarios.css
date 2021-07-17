@@ -1,13 +1,36 @@
 body{
     margin: 0;
     padding: 0;
-    background: #e5e5e5;
+    margin: auto;
+    
 }
 #Estado{
-    color: rgba(96, 207, 180, 0.87);
+    color: var(--buttonsColor);
 }
+#Estado-Cerrado{
+    color: var(--errorColor);
+}
+
+ table {
+    margin: auto;
+    margin-top: 24px;
+    border: 1px solid #000;
+    padding: 1px;
+ }
+ th, td {
+    padding: 8px;
+    margin: auto;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+
+ .colorDispon{
+     text-align: center;
+ }
+
 .cont-reloj{
-    margin: 170px auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +50,8 @@ body{
     font-size:1.7em;  
 }
 .datos{
-    font-size: 1.5em;
-    font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        font-family: var(--fontBase);
 }
 
 @media only screen and (max-width: 1200px) {

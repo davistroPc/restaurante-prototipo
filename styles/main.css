@@ -18,6 +18,7 @@
     --buttonsColor: #7EE081;
     --buttonCallActive: #00ff55;
     --headerActive: #E84855;
+    --errorColor: #ff0000;
     --withe: #ffffff;
     --buttonText: bold 14px/22px  var(--fontBase);
     }
